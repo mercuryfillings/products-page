@@ -1,0 +1,62 @@
+.layout-children {
+  flex: 2 1;
+  padding: 0 100px 100px 100px;
+}
+
+.product-detail {
+  display: flex;
+  padding: 90px 100px 100px;
+}
+
+.name {
+  font-size: 64px;
+  letter-spacing: 1px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.price {
+  font-size: 28px;
+  padding: 10px;
+}
+
+.detail {
+  line-height: 1.6;
+}
+
+.description {
+  padding: 10px;
+  letter-spacing: .9px;
+}
+
+@media (max-width: 800px){
+  .product-detail {
+    padding: 120px 0 0;
+  }
+
+  .detailimg {
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .detailimg {
+      width: 500px;
+      margin-top: -100px;
+      padding: 10px;
+    }
+
+  .name {
+    font-size: 32px;
+  }
+
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
